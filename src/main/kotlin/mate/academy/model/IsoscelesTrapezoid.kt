@@ -10,7 +10,8 @@ class IsoscelesTrapezoid(
     override fun area(): Double = (sideA + sideB) * height / 2
 
     override fun draw() {
+        println(
         "Figure: isosceles trapezoid, area:  %.2f, sideA:  %.2f, sideB:  %.2f," +
-                "height:  %.2f, color: $color".format(area(), sideA, sideB, height)
+                "height:  %.2f, color: $color".format(area(), sideA, sideB, height))
     }
 }

@@ -8,10 +8,8 @@ class RightTriangle(
     override fun area(): Double = (firstLength * secondLength) / 2
 
     override fun draw() {
-        println(
-            "Figure: right triangle: rectangle, area: %.2f, " +
+        println("Figure: right triangle: area: %.2f, " +
                     "firstLength: %.2f, secondLength: %.2f, color: $color"
-                        .format(area(), firstLength, secondLength)
-        )
+                        .format(area(), firstLength, secondLength))
     }
 }
